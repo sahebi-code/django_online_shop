@@ -1,6 +1,5 @@
 from django.views import generic
 from django.shortcuts import get_object_or_404, reverse, render
-from django.http import HttpResponse
 from django.utils.translation import gettext as _
 from django.contrib import messages
 
@@ -28,7 +27,6 @@ class ProductDetailView(generic.DetailView):
 class CommentCreateView(generic.CreateView):
     model = Comment
     form_class = CommentForm
-
 
     def form_valid(self, form):
         obj = form.save(commit=False)

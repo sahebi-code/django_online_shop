@@ -71,7 +71,7 @@ INDEX:
         35.01 - Widget List
         35.02 - Widget Color
         35.03 - Tagcloud
-        35.04 - Recent Post  
+        35.04 - Recent Post
 
     40 - Pages - Cart
     41 - Pages - Checkout
@@ -630,7 +630,7 @@ textarea,
   }
 }
 
-@keyframes EasyShopFadeInUp {
+@keyframes ShoppingYarFadeInUp {
   from {
     opacity: 0;
     transform: translate3d(0, 10%, 0);
@@ -648,7 +648,7 @@ textarea,
   }
 }
 
-@-webkit-keyframes EasyShop-bouncedelay {
+@-webkit-keyframes ShoppingYar-bouncedelay {
 
   0%,
   80%,
@@ -669,7 +669,7 @@ textarea,
   }
 }
 
-@keyframes EasyShop-bouncedelay {
+@keyframes ShoppingYar-bouncedelay {
 
   0%,
   80%,
@@ -5149,7 +5149,7 @@ textarea,
   color: #707070;
 }
 
-.EasyShop-product-action {
+.ShoppingYar-product-action {
   left: 50%;
   bottom: 0;
   margin-bottom: 1px;
@@ -5160,93 +5160,93 @@ textarea,
   transform: translateX(-50%);
 }
 
-.EasyShop-product-action .action-btn {
+.ShoppingYar-product-action .action-btn {
   margin-right: 1px;
 }
 
-.EasyShop-product-action .product-action>*:nth-child(1) {
+.ShoppingYar-product-action .product-action>*:nth-child(1) {
   transition-delay: 100ms;
 }
 
-.EasyShop-product-action .product-action>*:nth-child(2) {
+.ShoppingYar-product-action .product-action>*:nth-child(2) {
   transition-delay: 200ms;
 }
 
-.EasyShop-product-action .product-action>*:nth-child(3) {
+.ShoppingYar-product-action .product-action>*:nth-child(3) {
   transition-delay: 300ms;
 }
 
-.EasyShop-product-action .product-action>*:nth-child(4) {
+.ShoppingYar-product-action .product-action>*:nth-child(4) {
   transition-delay: 400ms;
 }
 
-.EasyShop-product-action .product-action>* {
+.ShoppingYar-product-action .product-action>* {
   opacity: 0;
   transition-property: all;
   transition-timing-function: linear;
   transition-duration: .4s;
 }
 
-.EasyShop-product-action-list .action-btn {
+.ShoppingYar-product-action-list .action-btn {
   background-color: #f5f5f5;
   margin-right: 4px;
   height: 50px;
 }
 
-.EasyShop-product-action-list .btn-small {
+.ShoppingYar-product-action-list .btn-small {
   height: 44px;
   line-height: 44px;
 }
 
-.EasyShop-product.product-style-2 {
+.ShoppingYar-product.product-style-2 {
   padding-bottom: 140px;
 }
 
 @media (max-width: 61.94em) {
-  .EasyShop-product.product-style-2 {
+  .ShoppingYar-product.product-style-2 {
     padding-bottom: 80px;
   }
 }
 
-.EasyShop-product.product-style-2 .product-inner {
+.ShoppingYar-product.product-style-2 .product-inner {
   padding-top: 225px;
 }
 
 @media (max-width: 61.94em) {
-  .EasyShop-product.product-style-2 .product-inner {
+  .ShoppingYar-product.product-style-2 .product-inner {
     padding-top: 130px;
   }
 }
 
-.EasyShop-product.product-style-2 .product-image {
+.ShoppingYar-product.product-style-2 .product-image {
   margin-bottom: -140px;
 }
 
 @media (max-width: 61.94em) {
-  .EasyShop-product.product-style-2 .product-image {
+  .ShoppingYar-product.product-style-2 .product-image {
     margin-bottom: -80px;
   }
 }
 
-.EasyShop-product.product-style-2 .product-image a {
+.ShoppingYar-product.product-style-2 .product-image a {
   text-align: center;
 }
 
-.EasyShop-product.product-style-2 .product-image a img {
+.ShoppingYar-product.product-style-2 .product-image a img {
   width: auto;
 }
 
-.EasyShop-product.product-style-2 .product-info {
+.ShoppingYar-product.product-style-2 .product-info {
   padding-top: 0;
 }
 
 @media (max-width: 61.94em) {
-  .EasyShop-product.product-style-2 .product-info {
+  .ShoppingYar-product.product-style-2 .product-info {
     top: 65%;
   }
 }
 
-.EasyShop-product.product-style-2 .EasyShop-product-action {
+.ShoppingYar-product.product-style-2 .ShoppingYar-product-action {
   left: auto;
   bottom: auto;
   margin-bottom: 0px;
@@ -5257,15 +5257,15 @@ textarea,
   transform: translateX(0);
 }
 
-.EasyShop-product.product-style-2 .EasyShop-product-action .product-action>* {
+.ShoppingYar-product.product-style-2 .ShoppingYar-product-action .product-action>* {
   opacity: 1;
 }
 
 @media (max-width: 61.94em) {
 
-  .EasyShop-product.product-style-2 .EasyShop-product-action .product-action .action-btn,
-  .EasyShop-product.product-style-2 .EasyShop-product-action .product-action .product-size-swatch-btn,
-  .EasyShop-product.product-style-2 .EasyShop-product-action .product-action .product-color-swatch-btn {
+  .ShoppingYar-product.product-style-2 .ShoppingYar-product-action .product-action .action-btn,
+  .ShoppingYar-product.product-style-2 .ShoppingYar-product-action .product-action .product-size-swatch-btn,
+  .ShoppingYar-product.product-style-2 .ShoppingYar-product-action .product-action .product-color-swatch-btn {
     width: 40px;
     height: 35px;
     line-height: 35px;
@@ -5273,17 +5273,17 @@ textarea,
 }
 
 @media (max-width: 61.94em) {
-  .EasyShop-product.product-style-2 .EasyShop-product-action .product-action .action-btn i {
+  .ShoppingYar-product.product-style-2 .ShoppingYar-product-action .product-action .action-btn i {
     line-height: 35px;
   }
 }
 
-.EasyShop-product:hover .EasyShop-product-action .product-action>* {
+.ShoppingYar-product:hover .ShoppingYar-product-action .product-action>* {
   opacity: 1;
 }
 
 /*-- 30.01 - Proudct List --*/
-.EasyShop-product-list .product-image {
+.ShoppingYar-product-list .product-image {
   -webkit-flex-basis: 270px;
   -moz-flex-basis: 270px;
   -ms-flex-preferred-size: 270px;
@@ -5292,7 +5292,7 @@ textarea,
 }
 
 @media (max-width: 47.94em) {
-  .EasyShop-product-list .product-image {
+  .ShoppingYar-product-list .product-image {
     -webkit-flex-basis: 230px;
     -moz-flex-basis: 230px;
     -ms-flex-preferred-size: 230px;
@@ -5302,7 +5302,7 @@ textarea,
 }
 
 @media (max-width: 35.94em) {
-  .EasyShop-product-list .product-image {
+  .ShoppingYar-product-list .product-image {
     -webkit-flex-basis: 100%;
     -moz-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
@@ -5311,7 +5311,7 @@ textarea,
   }
 }
 
-.EasyShop-product-list .product-thumbnail-action {
+.ShoppingYar-product-list .product-thumbnail-action {
   left: 0;
   top: 0;
   width: 100%;
@@ -5323,7 +5323,7 @@ textarea,
   transform: scale(0.2, 0.2);
 }
 
-.EasyShop-product-list .product-info {
+.ShoppingYar-product-list .product-info {
   -webkit-flex-basis: calc(100% - 270px);
   -moz-flex-basis: calc(100% - 270px);
   -ms-flex-preferred-size: calc(100% - 270px);
@@ -5335,7 +5335,7 @@ textarea,
 }
 
 @media (max-width: 47.94em) {
-  .EasyShop-product-list .product-info {
+  .ShoppingYar-product-list .product-info {
     -webkit-flex-basis: calc(100% - 230px);
     -moz-flex-basis: calc(100% - 230px);
     -ms-flex-preferred-size: calc(100% - 230px);
@@ -5346,7 +5346,7 @@ textarea,
 }
 
 @media (max-width: 35.94em) {
-  .EasyShop-product-list .product-info {
+  .ShoppingYar-product-list .product-info {
     -webkit-flex-basis: 100%;
     -moz-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
@@ -5357,37 +5357,37 @@ textarea,
   }
 }
 
-.EasyShop-product-list .product-info .star-rating {
+.ShoppingYar-product-list .product-info .star-rating {
   margin-left: 0;
 }
 
-.EasyShop-product-list .product-size-swatch,
-.EasyShop-product-list .product-color-swatch {
+.ShoppingYar-product-list .product-size-swatch,
+.ShoppingYar-product-list .product-color-swatch {
   bottom: auto;
   left: auto;
   position: relative;
 }
 
-.EasyShop-product-list .product-size-swatch-btn,
-.EasyShop-product-list .product-color-swatch-btn {
+.ShoppingYar-product-list .product-size-swatch-btn,
+.ShoppingYar-product-list .product-color-swatch-btn {
   background-color: #f5f5f5;
   margin-bottom: 0;
   height: 50px;
 }
 
-.EasyShop-product-list .product-title {
+.ShoppingYar-product-list .product-title {
   font-size: 28px;
   line-height: 34px;
 }
 
 @media (max-width: 61.94em) {
-  .EasyShop-product-list .product-title {
+  .ShoppingYar-product-list .product-title {
     font-size: 24px;
     line-height: 28px;
   }
 }
 
-.EasyShop-product-list:hover .product-thumbnail-action {
+.ShoppingYar-product-list:hover .product-thumbnail-action {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
@@ -6175,12 +6175,12 @@ textarea,
   overflow: visible;
 }
 
-.tab-content .tab-pane.active .EasyShop-product {
-  animation: EasyShopFadeInUp .5s linear .1s;
+.tab-content .tab-pane.active .ShoppingYar-product {
+  animation: ShoppingYarFadeInUp .5s linear .1s;
 }
 
-.shop-products .tab-content .tab-pane.active .EasyShop-product {
-  animation: EasyShopFadeInUp 0s linear 0s;
+.shop-products .tab-content .tab-pane.active .ShoppingYar-product {
+  animation: ShoppingYarFadeInUp 0s linear 0s;
 }
 
 /*****************************
@@ -6733,27 +6733,27 @@ textarea,
   padding-right: 0;
 }
 
-.shop-products .EasyShop-product {
+.shop-products .ShoppingYar-product {
   display: block;
 }
 
-.shop-products .EasyShop-product-list {
+.shop-products .ShoppingYar-product-list {
   display: none;
 }
 
-.shop-products.grid .EasyShop-product {
+.shop-products.grid .ShoppingYar-product {
   display: block;
 }
 
-.shop-products.grid .EasyShop-product-list {
+.shop-products.grid .ShoppingYar-product-list {
   display: none;
 }
 
-.shop-products.list .EasyShop-product {
+.shop-products.list .ShoppingYar-product {
   display: none;
 }
 
-.shop-products.list .EasyShop-product-list {
+.shop-products.list .ShoppingYar-product-list {
   display: block;
 }
 
@@ -6968,7 +6968,7 @@ textarea,
 51 - Utilities - Common
 *****************************/
 /*-- Global Overlay --*/
-.EasyShop-global-overlay {
+.ShoppingYar-global-overlay {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -7488,11 +7488,11 @@ textarea,
 }
 
 /*-- Preloader --*/
-.EasyShop-preloader {
+.ShoppingYar-preloader {
   display: none;
 }
 
-.EasyShop-preloader.active {
+.ShoppingYar-preloader.active {
   width: 100%;
   text-align: center;
   height: 100%;
@@ -7504,25 +7504,25 @@ textarea,
   display: block;
 }
 
-.EasyShop-preloader .EasyShop-child {
+.ShoppingYar-preloader .ShoppingYar-child {
   width: 20px;
   height: 20px;
   background-color: #c2080f;
   border-radius: 100%;
   display: inline-block;
-  -webkit-animation: EasyShop-bouncedelay 1.4s ease-in-out 0s infinite both;
-  -moz-animation: EasyShop-bouncedelay 1.4s ease-in-out 0s infinite both;
-  -ms-animation: EasyShop-bouncedelay 1.4s ease-in-out 0s infinite both;
-  -o-animation: EasyShop-bouncedelay 1.4s ease-in-out 0s infinite both;
-  animation: EasyShop-bouncedelay 1.4s ease-in-out 0s infinite both;
+  -webkit-animation: ShoppingYar-bouncedelay 1.4s ease-in-out 0s infinite both;
+  -moz-animation: ShoppingYar-bouncedelay 1.4s ease-in-out 0s infinite both;
+  -ms-animation: ShoppingYar-bouncedelay 1.4s ease-in-out 0s infinite both;
+  -o-animation: ShoppingYar-bouncedelay 1.4s ease-in-out 0s infinite both;
+  animation: ShoppingYar-bouncedelay 1.4s ease-in-out 0s infinite both;
 }
 
-.EasyShop-preloader .EasyShop-bounce1 {
+.ShoppingYar-preloader .ShoppingYar-bounce1 {
   -webkit-animation-delay: -0.32s;
   animation-delay: -0.32s;
 }
 
-.EasyShop-preloader .EasyShop-bounce2 {
+.ShoppingYar-preloader .ShoppingYar-bounce2 {
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
 }
@@ -7792,15 +7792,15 @@ Bootstrap Dropdown
 .product-badge,
 .product-size-swatch,
 .product-color-swatch,
-.EasyShop-product-action,
-.EasyShop-product-list .product-thumbnail-action,
+.ShoppingYar-product-action,
+.ShoppingYar-product-list .product-thumbnail-action,
 .accordion-slider__btn-group,
 .accordion-click-slider__btn-group,
 .product-gallery__actions,
 .method-box i,
 .countdown-2 .single-countdown:not(:last-child):after,
 .breadcrumb li:not(:last-child):after,
-.EasyShop-product.product-style-2 .product-info,
+.ShoppingYar-product.product-style-2 .product-info,
 .instagram-feed-heading,
 .instagram-feed-heading:after,
 .nav-right-center .slick-btn,
@@ -7852,7 +7852,7 @@ Bootstrap Dropdown
 .single-post,
 .post-navigation .nav-links__inner,
 .btn,
-.EasyShop-element-carousel,
+.ShoppingYar-element-carousel,
 .nav-center-bottom,
 .product-slide-nav,
 .comment-meta,
@@ -7866,10 +7866,10 @@ Bootstrap Dropdown
 .product-size,
 .product-color,
 .product-color-swatch-btn,
-.EasyShop-product-action-list .action-btn,
-.EasyShop-product.product-style-2,
-.EasyShop-product.product-style-2 .EasyShop-product-action,
-.EasyShop-product-list .product-image,
+.ShoppingYar-product-action-list .action-btn,
+.ShoppingYar-product.product-style-2,
+.ShoppingYar-product.product-style-2 .ShoppingYar-product-action,
+.ShoppingYar-product-list .product-image,
 .product-summary .product-large-image,
 .variation-form .product-color-variations .product-color-variation-btn,
 .variation-form .reset_variations,
@@ -7895,7 +7895,7 @@ Bootstrap Dropdown
   position: relative;
 }
 
-.EasyShop-product.product-style-2 .product-info,
+.ShoppingYar-product.product-style-2 .product-info,
 .instagram-feed-heading,
 .instagram-feed-heading:after {
   left: 50%;
@@ -7929,10 +7929,10 @@ button,
 .searchform__body,
 .offcanvas-menu-wrapper .offcanvas-menu-inner,
 .offcanvas-navigation .offcanvas-menu li>.menu-expand,
-.EasyShop-product-list .product-thumbnail-action,
+.ShoppingYar-product-list .product-thumbnail-action,
 .variation-form .product-color-variations .product-color-variation-btn,
 .tab-style-1 .nav-link:after,
-.EasyShop-global-overlay,
+.ShoppingYar-global-overlay,
 .pagination li .page-number,
 .instagram-feed .instagram-feed-item a:before {
   -webkit-transition: all 250ms ease-out;
@@ -7956,10 +7956,10 @@ button,
 .product-size-swatch-btn,
 .product-color-swatch,
 .product-color-swatch-btn,
-.EasyShop-product-list .product-thumbnail-action,
+.ShoppingYar-product-list .product-thumbnail-action,
 .tab-style-1 .nav-link:after,
 .tab-style-2 .nav-link span:after,
-.EasyShop-global-overlay,
+.ShoppingYar-global-overlay,
 .instagram-feed .instagram-feed-item a:before {
   visibility: hidden;
   opacity: 0;
@@ -7984,14 +7984,14 @@ button,
 .product-size:hover .product-size-swatch-btn,
 .product-color:hover .product-color-swatch,
 .product-color:hover .product-color-swatch-btn,
-.EasyShop-product-list .product-size-swatch,
-.EasyShop-product-list .product-color-swatch,
-.EasyShop-product-list .product-size-swatch-btn,
-.EasyShop-product-list .product-color-swatch-btn,
-.EasyShop-product-list:hover .product-thumbnail-action,
+.ShoppingYar-product-list .product-size-swatch,
+.ShoppingYar-product-list .product-color-swatch,
+.ShoppingYar-product-list .product-size-swatch-btn,
+.ShoppingYar-product-list .product-color-swatch-btn,
+.ShoppingYar-product-list:hover .product-thumbnail-action,
 .tab-style-1 .nav-link.active::after,
 .tab-style-2 .nav-link.active span:after,
-.EasyShop-global-overlay.overlay-open,
+.ShoppingYar-global-overlay.overlay-open,
 .instagram-feed .instagram-feed-item:hover a:before {
   visibility: visible;
   opacity: 1;
@@ -8149,7 +8149,7 @@ button,
 .newsletter-form,
 .searchform-2,
 .mini-cart__product,
-.EasyShop-product-list .product-inner,
+.ShoppingYar-product-list .product-inner,
 .accordion-slider,
 .accordion-click-slider,
 .accordion-slider__item,
@@ -8240,7 +8240,7 @@ button,
 }
 
 .blog-list,
-.EasyShop-product-list .product-inner,
+.ShoppingYar-product-list .product-inner,
 .accordion-slider,
 .accordion-click-slider,
 .cart-calculator__item,
@@ -8274,7 +8274,7 @@ button,
 
 .banner-overlay,
 .searchform__body,
-.EasyShop-product-list .product-thumbnail-action,
+.ShoppingYar-product-list .product-thumbnail-action,
 .instagram-feed-heading {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8294,8 +8294,8 @@ button,
 }
 
 .main-navigation,
-.EasyShop-product-list .product-size,
-.EasyShop-product-list .product-color,
+.ShoppingYar-product-list .product-size,
+.ShoppingYar-product-list .product-color,
 .widget-list li a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -24585,9 +24585,9 @@ button,
 .mobile-menu .mean-bar .mean-nav ul li a.mean-expand,
 .offcanvas-navigation .offcanvas-menu li.active>a,
 .product-badge,
-.EasyShop-product.product-style-2 .product-title a,
-.EasyShop-product.product-style-2 .product-price-wrapper span,
-.EasyShop-product:hover .btn,
+.ShoppingYar-product.product-style-2 .product-title a,
+.ShoppingYar-product.product-style-2 .product-price-wrapper span,
+.ShoppingYar-product:hover .btn,
 .special-product-price span,
 .special-product-stock,
 .special-product-title,
@@ -24660,8 +24660,8 @@ button,
 .comment .reply:hover,
 .newsletter-form__submit,
 .product-badge,
-.EasyShop-product:hover .btn,
-.EasyShop-product:hover .btn:after,
+.ShoppingYar-product:hover .btn,
+.ShoppingYar-product:hover .btn:after,
 .tab-style-1 .nav-link:after,
 .tab-style-1 .nav-link.active,
 .user-dashboard-tab__head .nav-link.active,
