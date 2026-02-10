@@ -8,9 +8,12 @@ Django==6.0
 django-allauth==65.13.1
 django-cache-url==3.4.5
 django-crispy-forms==2.5
+django-jalali-date==2.0.0
 django-rosetta==0.10.3
 environs==14.5.0
 idna==3.11
+jalali_core==1.0.0
+jdatetime==5.2.0
 marshmallow==4.2.0
 pillow==12.1.0
 polib==1.2.0
@@ -20,3 +23,4 @@ requests==2.32.5
 sqlparse==0.5.5
 tzdata==2025.3
 urllib3==2.6.3
+
