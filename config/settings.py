@@ -62,6 +62,7 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
     'allauth',
     'allauth.account',
+    'ckeditor',
 ]
 
 SITE_ID = 1
@@ -175,6 +176,7 @@ LOCALE_PATHS = (
 
 STATIC_URL = "static/"
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"), ]
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 # Media
 MEDIA_URL = "/media/"
