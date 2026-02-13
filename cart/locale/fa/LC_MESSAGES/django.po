@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-06 22:30+0330\n"
+"POT-Creation-Date: 2026-02-12 23:11+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,30 +26,46 @@ msgstr "محصول با موفقیت اضافه شد"
 msgid "Product successfully removed"
 msgstr "محصول با موفقیت حذف شد"
 
-#: .\templates\cart\cart_detail.html:86
-msgid "Cart is Empty! Please add some products to the cart."
-msgstr "سبد خرید شما خالی است! تعدادی کالا به سبد خرید اضافه کنید."
-
-#: .\templates\cart\cart_detail.html:87
-msgid "Go shopping"
-msgstr "رفتن به فروشگاه"
-
-#: .\templates\cart\cart_sidebar.html:8
+#: .\templates\cart\cart_detail.html:12 .\templates\cart\cart_sidebar.html:11
 msgid "Cart"
 msgstr "سبد خرید"
 
-#: .\templates\cart\cart_sidebar.html:26 .\templates\cart\cart_sidebar.html:34
+#: .\templates\cart\cart_detail.html:54 .\templates\cart\cart_detail.html:80
+#: .\templates\cart\cart_detail.html:118 .\templates\cart\cart_sidebar.html:29
+#: .\templates\cart\cart_sidebar.html:37
 msgid "$"
 msgstr "تومان"
 
-#: .\templates\cart\cart_sidebar.html:33
+#: .\templates\cart\cart_detail.html:89
+msgid "Cart is Empty! Please add some products to the cart."
+msgstr "سبد خرید شما خالی است! تعدادی کالا به سبد خرید اضافه کنید."
+
+#: .\templates\cart\cart_detail.html:90
+msgid "Go shopping"
+msgstr "رفتن به فروشگاه"
+
+#: .\templates\cart\cart_detail.html:100
+msgid "Clear Cart"
+msgstr "خالی کردن سبد خرید"
+
+#: .\templates\cart\cart_detail.html:125 .\templates\cart\cart_sidebar.html:42
+msgid "Checkout"
+msgstr "پرداخت"
+
+#: .\templates\cart\cart_sidebar.html:36
 msgid "Total"
 msgstr "مجموع"
 
-#: .\templates\cart\cart_sidebar.html:38
+#: .\templates\cart\cart_sidebar.html:41
 msgid "Go to cart"
 msgstr "رفتن به سبد خرید"
 
-#: .\templates\cart\cart_sidebar.html:39
-msgid "Checkout"
-msgstr "پرداخت"
+#: .\views.py:47
+#, fuzzy
+#| msgid "Product successfully removed"
+msgid "All products have been successfully removed from your cart."
+msgstr "سبد خرید شما با موفقیت خالی شد."
+
+#: .\views.py:49
+msgid "Your cart is already empty."
+msgstr "سبد خرید شما از قبل خالی است."
