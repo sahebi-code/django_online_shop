@@ -32,6 +32,7 @@ def order_create_view(request):
                     quantity=item['quantity'],
                     price=product.price,
                 )
+
             cart.clear()
 
             request.user.first_name = order_obj.first_name
